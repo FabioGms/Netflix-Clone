@@ -1,0 +1,45 @@
+.header{
+    background-color:black;
+    padding: 0 54px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo{
+    width: 92.5px;
+    height: 31px;
+    margin-right: 25px;
+}
+.nav{
+    color: white;
+    display: flex;
+    
+}
+.nav li{
+    margin-left: 20px;
+}
+
+.header .left{
+    display: flex;
+    align-items: center;
+}
+
+.nav li a{
+    font-size: 14px;
+}
+
+.header .right{
+    display: flex;
+    align-items: center;
+}
+
+.header .profileIcon{
+    height: 32px;
+    width: 32px;
+    border-radius: 4px;
+}
+
+.header .lupa, .header .sino, .header .infantil{
+    margin-right: 20px;
+}
